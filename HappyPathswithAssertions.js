@@ -1,9 +1,9 @@
 describe('Assertions in Web DriverIO', () => {
 
     it('First Drop down', async () => {
-        await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
+        await browser.url('https://loginpagePractise/');
         await browser.maximizeWindow();
-        await $("[id='username']").setValue('rahulshettyacademy');
+        await $("[id='username']").setValue('academy');
         await $("[id='password']").setValue("learning");
         await (await $("[id='signInBtn']")).click();
         await browser.pause(2000);
