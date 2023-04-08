@@ -8,8 +8,8 @@ exports.config = {
     // ==================
     // Specify Test Files
     // ==================
-    // Define which test specs should run. The pattern is relative to the directory
-    // from which `wdio` was called.
+    // Define which test specs should run. The pattern is relative to the directory from which `wdio` was called.
+    // 
     //
     // The specs are defined as an array of spec files (optionally using wildcards
     // that will be expanded). The test for each spec file will be run in a separate
@@ -31,8 +31,8 @@ exports.config = {
     // ============
     // Capabilities
     // ============
-    // Define your capabilities here. WebdriverIO can run multiple capabilities at the same
-    // time. Depending on the number of capabilities, WebdriverIO launches several test
+    // Define your capabilities here. WebdriverIO can run multiple capabilities at the same time.
+    //  Depending on the number of capabilities, WebdriverIO launches several test
     // sessions. Within your capabilities you can overwrite the spec and exclude options in
     // order to group specific specs to a specific capability.
     //
