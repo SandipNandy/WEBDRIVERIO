@@ -11,6 +11,7 @@ describe('First Test', function () {
              assert.equal(tt, 'The Internet');
          });
         await LoginPage.login('tomsmith', 'SuperSecretPassword!');
+        // await LoginPage.login('tomsmith', 'SuperSecretPassword!');
 
     });
 
