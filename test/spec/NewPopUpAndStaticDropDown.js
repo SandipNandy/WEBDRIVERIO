@@ -1,7 +1,7 @@
 describe('Radio Buttons Drop Down : ', () => {
 
     it('DEMO PAGE.', async () => {
-        //https://rahulshettyacademy.com/loginpagePractise/
+        
         await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
         await browser.maximizeWindow();
         await $("[id='username']").setValue('rahulshettyacademy');
