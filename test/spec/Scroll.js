@@ -1,8 +1,8 @@
 describe('Functional Testin in WebdriverIO',function(){
     it('Scrolling And MouseOver',async function (){
 
-        //https://only-testing-blog.blogspot.com/
-        //https://rahulshettyacademy.com/AutomationPractice/
+        ////https://only-testing-blog.blogspot.com/
+        ////https://rahulshettyacademy.com/AutomationPractice/
         await browser.url('https://rahulshettyacademy.com/AutomationPractice/');
         await browser.pause(3000);
         await (await $("#mousehover")).scrollIntoView();
