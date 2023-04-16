@@ -1,5 +1,5 @@
-//const protractor=require('protractor');
-//const driver1=browser;
+////const protractor=require('protractor');
+////const driver1=browser;
 const assert = require('assert');
 import LoginPage from '../pageobject/Locators.page';
 describe('First Test', function () {
