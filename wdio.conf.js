@@ -9,6 +9,7 @@ exports.config = {
     // Specify Test Files
     // ==================
     // Define which test specs should run. The pattern is relative to the directory from which `wdio` was called.
+    //
     // 
     //
     // The specs are defined as an array of spec files (optionally using wildcards
