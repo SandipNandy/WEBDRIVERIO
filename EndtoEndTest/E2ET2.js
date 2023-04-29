@@ -16,6 +16,7 @@ describe('END TO END :-', () => {
                 await (await cards[i].$(".card-footer button")).click();
             }
         }
+        
         await link.click();
         const productPrice= await $$("//tr/td[4]/strong");
        const sumOfProducts= await productPrice.map((productPrice)=>parseInt(productPrice.getText().split(".")[1].trim())).reduce((acc,price)=>acc+price,0);
@@ -31,3 +32,4 @@ describe('END TO END :-', () => {
        await expect($(".alert-success")).toHaveTextContaining('Success');
     });
 })
+
