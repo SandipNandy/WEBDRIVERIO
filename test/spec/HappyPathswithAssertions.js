@@ -1,7 +1,6 @@
 describe('Assertions in Web DriverIO', () => {
 
     it('First Drop down', async () => {
-        
         await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
         await browser.maximizeWindow();
         await $("[id='username']").setValue('rahulshettyacademy');
@@ -11,7 +10,6 @@ describe('Assertions in Web DriverIO', () => {
         await (await $("[class='list-group-item']")).waitForExist({ timeout: 30000 });
         expect(browser).toHaveUrlContaining("shop");
         expect(browser).toHaveTitle('ProtoCommerce');
-
 
     });
 });
