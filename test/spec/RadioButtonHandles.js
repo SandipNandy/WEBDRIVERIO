@@ -11,8 +11,5 @@ describe('Radio Buttons Drop Down : ', () => {
         await UserDropDown.$("span").click();
         await browser.pause(4000);
         //await (await $("[id='signInBtn']")).click();
-        
-
-
-    });
+            });
 });
