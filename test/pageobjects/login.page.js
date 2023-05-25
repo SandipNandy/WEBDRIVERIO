@@ -1,5 +1,4 @@
 
-
 import Page from './page';
 
 /**
