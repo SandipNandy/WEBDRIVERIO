@@ -15,6 +15,7 @@ describe('Assertions in Web DriverIO', () => {
                 timeout: 5000,
                 timeoutMsg: 'expected text to be different after 5s'
             }
+            
         );
         console.log(await $(".alert-danger").getText())
 
