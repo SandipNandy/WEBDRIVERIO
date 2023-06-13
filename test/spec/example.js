@@ -3,7 +3,6 @@
 const assert = require('assert');
 import LoginPage from '../pageobject/Locators.page';
 describe('First Test', function () {
-
     it('Main Scripts',async function () {
         await LoginPage.open();
         await LoginPage.Title().then(function (tt) {
