@@ -7,7 +7,5 @@ describe('My Login application', () => {
         var radioButton = await $$('.customradio');
        await radioButton[1].$("input[id='usertype']").click();
        await browser.pause(4000);
-       
-
     })
 });
