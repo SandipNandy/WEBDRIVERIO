@@ -16,10 +16,7 @@ describe('WebdriverIO Static Drop Down Selection', () => {
         await Dropdown.selectByAttribute('value', 'consult');
         await browser.pause('4000');
 
-
     });
-
-
 
     it('Dynamic Drop Down Selection', async () => {
         console.log('dynamic');
