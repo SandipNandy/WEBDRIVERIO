@@ -6,9 +6,7 @@ module.exports = {
                 "targets": {
                     "node": "14"
                 }
-                
             }
         ]
     ]
 }
-
