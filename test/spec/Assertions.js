@@ -1,5 +1,7 @@
 describe('Assertions in Web DriverIO', () => {
+    
     it('First Drop Down', async () => {
+        
        // https://rahulshettyacademy.com/loginpagePractise/
         await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
         //console.log(await browser.getTitle());
