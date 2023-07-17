@@ -10,8 +10,5 @@ describe('Functional Testin in WebdriverIO',function(){
         await browser.pause(3000);
         await (await $("=Top")).click();
         await browser.pause(3000);
-
-
-
     })
 })
