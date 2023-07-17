@@ -3,7 +3,9 @@ class AsyncArray /*extends Array*/ {
       this.data = arr; // In place of Array subclassing
         // In place of Array subclassing.
     }
+    
     filterAsync(predicate) {
+        
        // Take a copy of the array, it might mutate by the time we've finished
         // Take a copy of the array, it might mutate by the time we've finished
       const data = Array.from(this.data);
