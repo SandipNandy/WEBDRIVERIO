@@ -13,6 +13,4 @@ describe('First Test', function () {
         // await LoginPage.login('tomsmith', 'SuperSecretPassword!');
 
     });
-
-
 });
