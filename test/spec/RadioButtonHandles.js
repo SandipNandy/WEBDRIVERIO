@@ -3,9 +3,11 @@ describe('Radio Buttons Drop Down : ', () => {
         
         ////https://rahulshettyacademy.com/loginpagePractise/
         await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
+        
         await browser.maximizeWindow();
         
         await $("[id='username']").setValue('rahulshettyacademy');
+        
         await $("[id='password']").setValue("learning");
         const radioButton= await $$(".radiotextsty");
         let UserDropDown=radioButton[1];
