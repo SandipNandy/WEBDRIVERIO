@@ -3,7 +3,9 @@ describe('Radio Buttons Drop Down : ', () => {
         await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
         await browser.maximizeWindow();
         
+        
         await $("[id='username']").setValue('rahulshettyacademy');
+        
         await $("[id='password']").setValue("learning");
         
         const radioButton = await $$(".radiotextsty");
@@ -13,7 +15,9 @@ describe('Radio Buttons Drop Down : ', () => {
         const Modal = await $(".modal-body");
         
         await Modal.waitForDisplayed();
+        
         await (await $("#cancelBtn")).click();
+        
         console.log(await (await $$("customradio")[0].$("span")).isSelected());
         await (await UserDropDown.$("span")).click();
         await Modal.waitForDisplayed();
