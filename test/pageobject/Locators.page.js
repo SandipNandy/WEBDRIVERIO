@@ -1,10 +1,13 @@
 import Page from './Url.page';
 
+
 class LoginPage extends Page {
+
     
     get inputUsername() {
         return $('#username');
     }
+
     
     get inputPassword() {
         return $('#password');
