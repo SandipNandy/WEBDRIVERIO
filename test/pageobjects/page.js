@@ -3,7 +3,9 @@
 ** that is shared across all page objects
 */
 
+
 export default class Page {
+
     
     /**
     * Opens a sub page of the page
