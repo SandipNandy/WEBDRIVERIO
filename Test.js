@@ -7,7 +7,8 @@ it('Launch URLS', function () {
 
 xit('refresh', function () {  
     
-    browser.refresh()
+    browser.refresh();
+    
 })
 xit('u', function () {  
     //var t =
