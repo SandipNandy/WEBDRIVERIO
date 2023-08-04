@@ -16,6 +16,7 @@ xit('u', function () {
     browser.getTitle().then(function (tt) {
         
         console.log('Title : ', tt);
+        
         assert.equal(tt, 'The Internet');
     });
 });
