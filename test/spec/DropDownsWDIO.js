@@ -1,7 +1,6 @@
 describe('WebdriverIO Static Drop Down Selection', () => {
     it('Static Drop Down Selection', async () => {
 
-        
         //https://rahulshettyacademy.com/loginpagePractise/
         console.log('static')
 
