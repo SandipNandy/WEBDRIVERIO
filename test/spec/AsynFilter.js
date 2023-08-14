@@ -4,7 +4,6 @@ class AsyncArray /*extends Array*/ {
         // In place of Array subclassing.
     }
 
-    
     filterAsync(predicate) {
         
        // Take a copy of the array, it might mutate by the time we've finished
