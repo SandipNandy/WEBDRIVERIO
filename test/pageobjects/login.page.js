@@ -7,14 +7,12 @@ import Page from './page';
 
 class LoginPage extends Page {
 
-    
     /**
      ** define selectors using getter methods
      */
     get inputUsername() {
         return $('#username');
     }
-
     get inputPassword() {
         return $('#password');
     }
