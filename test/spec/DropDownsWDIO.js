@@ -5,7 +5,6 @@ describe('WebdriverIO Static Drop Down Selection', () => {
         console.log('static')
 
         await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
-        
         //await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
         await $("#username").setValue("rahulshettyacademy");
         await $('#password').setValue("learning");
