@@ -1,7 +1,6 @@
 describe('My Login application', () => {
     it('should login with valid credentials', async() => {
         //https://rahulshettyacademy.com/loginpagePractise/
-        
        await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
         
        await $("#username").setValue("rahulshettyacademy");
