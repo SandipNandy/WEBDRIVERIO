@@ -1,19 +1,12 @@
 import Page from './Url.page';
-
-
 class LoginPage extends Page {
-
-    
-    get inputUsername() {
+get inputUsername() {
         return $('#username');
     }
-
-    
-    get inputPassword() {
+ get inputPassword() {
         return $('#password');
     }
-    
-    get btnSubmit() {
+get btnSubmit() {
         return $('button[type="submit"]');
     }
     
