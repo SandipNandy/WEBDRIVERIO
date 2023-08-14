@@ -6,6 +6,7 @@ get inputUsername() {
  get inputPassword() {
         return $('#password');
     }
+        
 get btnSubmit() {
         return $('button[type="submit"]');
     }
