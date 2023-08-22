@@ -18,6 +18,7 @@ describe('END TO END :-', () => {
             const card= await cards[i].$("div h4 a");
             if(products.includes(await card.getText())){
                 await (await cards[i].$(".card-footer button")).click();
+                
             }
         }
         await link.click();
