@@ -17,6 +17,7 @@ describe('Assertions in Web DriverIO', () => {
         await (await $("input[id='signInBtn']")).click();
         await browser.waitUntil(
             async () => await $('#signInBtn').getAttribute('value') === 'Sign In',
+            
             {
                 timeout: 5000,
                 timeoutMsg: 'expected text to be different after 5s'
