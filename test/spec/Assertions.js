@@ -5,6 +5,7 @@ describe('Assertions in Web DriverIO', () => {
         
         //console.log(await browser.getTitle());
         let title=await browser.getTitle()
+        
         expect(title).toHaveTextContaining("LoginPage Practise | Rahul Shetty Academy")
         await $("#username").setValue("rahulshettyacademy");
         
