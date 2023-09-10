@@ -11,6 +11,7 @@ describe('Assertions in Web DriverIO', () => {
         await $("#username").setValue("rahulshettyacademy");
         
         await $('#password').setValue("fffff");
+        
         console.log(await browser.getTitle());
         
         await (await $("input[id='signInBtn']")).click();
