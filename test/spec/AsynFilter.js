@@ -1,6 +1,7 @@
 class AsyncArray /*extends Array*/ {
     constructor(arr) {
       this.data = arr; // In place of Array subclassing
+        
         // In place of Array subclassing.
     }
 
