@@ -13,6 +13,7 @@ class LoginPage extends Page {
         return $('#username');
     }
     get inputPassword() {
+        
         return $('#password');
     }
 
