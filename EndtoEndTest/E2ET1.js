@@ -5,7 +5,6 @@ describe('END TO END :-', () => {
         const products=['iphone X','Samsung Note 8','Blackberry'] 
        await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
        await $("#username").setValue("rahulshettyacademy");
-        
         await $('#password').setValue("learning");
         await (await $("#signInBtn")).click();
         //wait until checkout button is displayed
