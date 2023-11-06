@@ -1,7 +1,6 @@
 exports.config = {
   capabilities: [{
     'browserName': 'chrome',
-    
     'browserName': 'chrome'
   }],
   // Framework to use. Jasmine is recommended.
