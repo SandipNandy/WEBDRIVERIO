@@ -23,6 +23,7 @@ get btnSubmit() {
         await this.inputUsername.setValue(username);
             
         await this.inputPassword.setValue(password);
+            
         await this.btnSubmit.click();
     }
 
