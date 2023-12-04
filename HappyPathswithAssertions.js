@@ -18,6 +18,7 @@ describe('Assertions in Web DriverIO', () => {
         await (await $("[class='list-group-item']")).waitForExist({ timeout: 30000 });
         
         expect(browser).toHaveUrlContaining("shop");
+        
         expect(browser).toHaveTitle('ProtoCommerce');
     });
 });
