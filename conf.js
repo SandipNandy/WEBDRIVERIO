@@ -14,6 +14,5 @@ exports.config = {
 ],
   jasmineOpts: {
     defaultTimeoutInterval: 30000
-    
   }
 };
