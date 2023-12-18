@@ -5,7 +5,6 @@
   },
   "devDependencies": {
     "@badisi/wdio-harness": "^1.0.3",
-    
     "@rpii/wdio-html-reporter": "^7.7.1",
     
     "@wdio/allure-reporter": "^7.16.14",
