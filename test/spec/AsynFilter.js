@@ -9,6 +9,7 @@ class AsyncArray /*extends Array*/ {
        // Take a copy of the array, it might mutate by the time we've finished
         // Take a copy of the array, it might mutate by the time we've finished
       const data = Array.from(this.data);
+        
       // Transform all the elements into an array of promises using the predicate
       // as the promise
       return Promise.all(data.map((element, index) => predicate(element, index, data)))
