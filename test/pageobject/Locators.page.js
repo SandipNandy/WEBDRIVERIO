@@ -21,7 +21,6 @@ get btnSubmit() {
     }
 
     open() {
-            
         return super.open('login');
     }
 
