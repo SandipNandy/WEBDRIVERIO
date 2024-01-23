@@ -15,7 +15,6 @@ get btnSubmit() {
 
         
     async login (username, password) {
-            
         await this.inputUsername.setValue(username);
             
         await this.inputPassword.setValue(password);
