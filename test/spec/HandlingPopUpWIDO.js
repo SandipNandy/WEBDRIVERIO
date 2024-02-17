@@ -11,6 +11,7 @@ describe('My Login application', () => {
         var radioButton = await $$('.customradio');
         
        await radioButton[1].$("input[id='usertype']").click();
+        
       const popup=$(".modal-content")
        await popup.waitForDisplayed();
         (await $("button[id='cancelBtn']")).click();
