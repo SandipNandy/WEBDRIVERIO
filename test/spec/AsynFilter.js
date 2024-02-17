@@ -13,6 +13,7 @@ class AsyncArray /*extends Array*/ {
       // Transform all the elements into an array of promises using the predicate
       // as the promise
       return Promise.all(data.map((element, index) => predicate(element, index, data)))
+          
       // Use the result of the promises to call the underlying sync filter function
         .then(result => {
           return data.filter((element, index) => {
