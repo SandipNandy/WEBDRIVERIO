@@ -8,6 +8,7 @@ get inputUsername() {
         
  get inputPassword() {
         return $('#password');
+         
     }
         
 get btnSubmit() {
