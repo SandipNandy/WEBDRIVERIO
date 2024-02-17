@@ -12,5 +12,6 @@ export default class Page {
         
         return browser.url(`https://the-internet.herokuapp.com/${path}`)  
         
+        
     }
 }
