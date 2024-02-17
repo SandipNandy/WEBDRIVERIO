@@ -17,6 +17,7 @@ class AsyncArray /*extends Array*/ {
       // Use the result of the promises to call the underlying sync filter function
         .then(result => {
           return data.filter((element, index) => {
+              
             return result[index];
           });
         });
