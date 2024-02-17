@@ -18,6 +18,7 @@ describe('WebdriverIO Static Drop Down Selection', () => {
         
         await popup.waitForDisplayed();
         (await $("button[id='cancelBtn']")).click();
+        
         const Dropdown = await $("select.form-control");
         await Dropdown.selectByAttribute('value', 'consult');
         await browser.pause('4000');
