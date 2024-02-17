@@ -10,6 +10,7 @@ describe('END TO END :-', () => {
         await $('#password').setValue("learning");
         
         await (await $("#signInBtn")).click();
+        
         //wait until checkout button is displayed
         const link=$("*=Checkout");
         await link.waitForExist();
