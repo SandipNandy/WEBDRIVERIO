@@ -11,7 +11,6 @@ exports.config = {
   // protractor is called.
   //specs: ['example_spec.js'],
   specs: [ 
-    
     './test/specs/Main.js'
 ],
   jasmineOpts: {
