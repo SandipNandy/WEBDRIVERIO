@@ -20,6 +20,7 @@
     "@wdio/mocha-framework": "^7.16.15",
     
     "@wdio/spec-reporter": "^7.16.14",
+    
     "chromedriver": "^99.0.0",
     "wdio-chromedriver-service": "^7.2.8",
     "wdio-wait-for": "^2.2.1",
