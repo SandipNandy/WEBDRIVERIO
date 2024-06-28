@@ -12,7 +12,6 @@ exports.config = {
   
   //specs: ['example_spec.js'],
   specs: [ 
-    
     './test/specs/Main.js'
 ],
   jasmineOpts: {
