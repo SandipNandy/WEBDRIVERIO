@@ -4,7 +4,6 @@ it('Launch URLS', function () {
    // browser.url('https://the-internet.herokuapp.com/login')
 });
 xit('refresh', function () {
-    
     browser.refresh(); 
 })
 xit('u', function () {  
