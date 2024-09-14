@@ -4,7 +4,6 @@
     "jscodeshift": "^0.13.1"
   },
   "devDependencies": {
-    
     "@badisi/wdio-harness": "^1.0.3",
 
     "@rpii/wdio-html-reporter": "^7.7.1",
