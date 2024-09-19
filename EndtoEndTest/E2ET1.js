@@ -17,6 +17,7 @@ describe('END TO END :-', () => {
         const link=$("*=Checkout");
         
         await link.waitForExist();
+        
         const cards= await $$("div[class='card h-100']");
         for(let i=0;i<await cards.length;i++){
             
