@@ -14,6 +14,7 @@ describe('END TO END :-', () => {
         
         //wait until checkout button is displayed
         const link=$("*=Checkout");
+        
         await link.waitForExist();
         const cards= await $$("div[class='card h-100']");
         
