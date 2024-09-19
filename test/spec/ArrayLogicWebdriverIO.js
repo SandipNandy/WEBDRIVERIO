@@ -10,6 +10,7 @@ describe('My Login application', () => {
         await $('#password').setValue("learning");
         
         var radioButton = await $$('.customradio');
+        
        await radioButton[1].$("input[id='usertype']").click();
        await browser.pause(4000); 
     })
