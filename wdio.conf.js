@@ -1,6 +1,4 @@
 exports.config = {
-    
-    //
     // ====================
     // Runner Configuration
     
