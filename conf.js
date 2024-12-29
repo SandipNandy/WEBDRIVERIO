@@ -16,7 +16,6 @@ exports.config = {
     './test/specs/Main.js'
 ],
   jasmineOpts: {
-    
     defaultTimeoutInterval: 30000
     
   }
