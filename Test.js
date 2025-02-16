@@ -4,7 +4,6 @@ it('Launch URLS', function () {
 });
 
 xit('refresh', function () {
-    
     browser.refresh(); 
 })
 xit('u', function () {  
