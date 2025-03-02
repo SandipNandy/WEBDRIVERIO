@@ -4,6 +4,7 @@
     "@wdio/codemod": "^0.10.0",
     
     "jscodeshift": "^0.13.1"
+    
   },
   "devDependencies": {
     "@badisi/wdio-harness": "^1.0.3",
