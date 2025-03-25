@@ -10,6 +10,7 @@ xit('refresh', function () {
 })
 xit('u', function () {   //var t =
     browser.getTitle().then(function (tt) {
+        
         console.log('Title : ', tt);
         assert.equal(tt, 'The Internet');
     });
