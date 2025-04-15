@@ -16,7 +16,6 @@ exports.config = {
     // will be called from there.
     
     specs: [
-        
         './test/spec/*.js'
         
     ],
