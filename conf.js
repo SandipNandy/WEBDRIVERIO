@@ -9,7 +9,6 @@ exports.config = {
   // Spec patterns are relative to the current working directory when
   // protractor is called.
   //specs: ['example_spec.js'],
-  
   specs: [ 
     './test/specs/Main.js'
 ],
