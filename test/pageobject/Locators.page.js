@@ -18,7 +18,6 @@ get btnSubmit() {
             
         await this.btnSubmit.click();
     }
-
     open() {
         return super.open('login');
     }
