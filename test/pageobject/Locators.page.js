@@ -6,6 +6,7 @@ get inputUsername() {
         return $('#username'); 
 }
  get inputPassword() {
+         
         return $('#password');
          
     }
