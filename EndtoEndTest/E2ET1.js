@@ -7,6 +7,7 @@ describe('END TO END :-', () => {
        await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
         
        await $("#username").setValue("rahulshettyacademy");
+        
         await $('#password').setValue("learning");
         await (await $("#signInBtn")).click();
         //wait until checkout button is displayed
