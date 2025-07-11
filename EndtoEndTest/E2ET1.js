@@ -8,7 +8,8 @@ describe('END TO END :-', () => {
         
        await $("#username").setValue("rahulshettyacademy");
         
-        await $('#password').setValue("learning");
+        await $('#password').setValue("learning");7
+        
         await (await $("#signInBtn")).click();
         //wait until checkout button is displayed
         const link=$("*=Checkout");
