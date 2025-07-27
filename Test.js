@@ -5,6 +5,7 @@ it('Launch URLS', function () {
 
 xit('refresh', function () {
     browser.refresh(); 
+    
 })
 xit('u', function () {   //var t =
     browser.getTitle().then(function (tt) {
