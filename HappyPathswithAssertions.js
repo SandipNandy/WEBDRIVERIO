@@ -7,6 +7,7 @@ describe('Assertions in Web DriverIO', () => {
         await browser.maximizeWindow();
         
         await $("[id='username']").setValue('rahulshettyacademy');
+        
         await $("[id='password']").setValue("learning");
         await (await $("[id='signInBtn']")).click();
         await browser.pause(2000);
@@ -15,6 +16,7 @@ describe('Assertions in Web DriverIO', () => {
         expect(browser).toHaveTitle('ProtoCommerce');
     });
 });
+
 
 
 
