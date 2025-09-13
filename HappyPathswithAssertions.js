@@ -9,10 +9,10 @@ describe('Assertions in Web DriverIO', () => {
         await browser.pause(2000);
         await (await $("[class='list-group-item']")).waitForExist({ timeout: 30000 });
         expect(browser).toHaveUrlContaining("shop");
-        
         expect(browser).toHaveTitle('ProtoCommerce');
     });
 });
+
 
 
 
