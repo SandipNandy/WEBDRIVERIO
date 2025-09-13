@@ -7,7 +7,6 @@ describe('Assertions in Web DriverIO', () => {
         await $("[id='password']").setValue("learning");
         await (await $("[id='signInBtn']")).click();
         await browser.pause(2000);
-        
         await (await $("[class='list-group-item']")).waitForExist({ timeout: 30000 });
         
         expect(browser).toHaveUrlContaining("shop");
@@ -15,6 +14,7 @@ describe('Assertions in Web DriverIO', () => {
         expect(browser).toHaveTitle('ProtoCommerce');
     });
 });
+
 
 
 
