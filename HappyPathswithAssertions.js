@@ -2,7 +2,6 @@ describe('Assertions in Web DriverIO', () => {
     it('First Drop down', async () => {
         //https://rahulshettyacademy.com/loginpagePractise/
         await browser.url('https://rahulshettyacademy.com/loginpagePractise/');
-        
         await browser.maximizeWindow();
         
         await $("[id='username']").setValue('rahulshettyacademy');
@@ -20,6 +19,7 @@ describe('Assertions in Web DriverIO', () => {
         expect(browser).toHaveTitle('ProtoCommerce');
     });
 });
+
 
 
 
