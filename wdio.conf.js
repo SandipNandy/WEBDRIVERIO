@@ -23,7 +23,6 @@ exports.config = {
     // Patterns to exclude.
     
     exclude: [
-        
         // 'path/to/excluded/files'
     ],
     //
